@@ -1,6 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Youtube Clone React App
 
-## Available Scripts
+This project is an easy summary of how I used React Router Dom and Material Icons in a React web application.
+
+## How to contribute to or download this project?
+
+### 1. Fork and Clone this repository into your machine
+
+`git clone https://github.com/ksrajath7/Youtube-Clone-React-App.git`
+
+### 2. Open the project folder in your Visual Studio Code or any other IDEs
+
+### 3. Install the depndancies by running `npm install` command
 
 In the project directory, you can run:
 
