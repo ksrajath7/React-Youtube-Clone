@@ -1,7 +1,7 @@
 
 ## Youtube Clone React App
 
-This project is an easy summary of how I used React Router Dom and Material Icons in a React web application.
+This project is an easy summary of how I used React Router Dom, React Hooks and Material Icons to create a responsive react web application.
 
 ### LIVE DEMO
 
