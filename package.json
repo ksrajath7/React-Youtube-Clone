@@ -13,7 +13,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://ksrajath7.github.io/React-App-Youtube-Clone",
+  "homepage": "https://ksrajath7.github.io/React-Youtube-Clone",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
