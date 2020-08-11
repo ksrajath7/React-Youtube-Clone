@@ -20,7 +20,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <Link to="/">
+                <Link to={`${process.env.PUBLIC_URL}/`}>
                     <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" alt=""></img>
                 </Link>
             </div>
@@ -31,7 +31,7 @@ function Header() {
                         onChange={e=>setInputSearch(e.target.value)}
                         type="text"
                         placeholder="Search"/>
-                    <Link to={`/search/${inputSearch}`}>
+                    <Link to={`${process.env.PUBLIC_URL}/search/${inputSearch}`}>
                         <SearchIcon className="header__inputButton"/>
                     </Link>
                 </div>

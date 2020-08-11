@@ -43,7 +43,7 @@ function SidebarCollapsable({home, trending, subscriptions}) {
                             onChange={e=>setInputSearch(e.target.value)}
                             type="text"
                             placeholder="Search"/>
-                        <Link to={`/search/${inputSearch}`} onClick={e=>setCollapse(!collapse)}>
+                        <Link to={`${process.env.PUBLIC_URL}/search/${inputSearch}`} onClick={e=>setCollapse(!collapse)}>
                             <SearchIcon className="searchButton"/>
                         </Link>
                         </div>
