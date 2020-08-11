@@ -5,7 +5,7 @@ This project is an easy summary of how I used React Router Dom, React Hooks and 
 
 ### LIVE DEMO
 
-https://ksrajath7.github.io/Youtube-Clone-React-App
+https://ksrajath7.github.io/React-Youtube-Clone
 
 ## How to contribute to or download this project?
 
