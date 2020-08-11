@@ -1,0 +1,47 @@
+.sidebar1{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index:200;
+}
+
+.menuIcon__container{
+    background-color:white;
+    padding-left: 20px;
+}
+
+.SidebarRow__container{
+    padding-top: 10px;
+    background-color:white;
+    height:100%;
+}
+
+
+.searchBar{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+    border:1px solid lightgray;
+}
+
+.searchButton{
+    width:50px !important;
+    color: gray;
+}
+
+.searchBar > input{
+    padding: 10px;
+    flex:1;
+    border: none;
+}
+
+
+hr{
+    height: 1px;
+    border:0;
+    background-color: lightgray;
+    margin-top:10px;
+    margin-bottom: 10px;
+}

@@ -11,22 +11,37 @@ import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined'
 
 import './Sidebar.css'
 import SidebarRow from './SidebarRow'
-function Sidebar() {
-    return (
-        <div className="sidebar">
-            <SidebarRow selected Icon={HomeIcon} title="Home"/>
-            <SidebarRow Icon={WhatshotIcon} title="Trending"/>
-            <SidebarRow Icon={SubscriptionsIcon} title="Subscriptions"/>
-            <hr/>
-            <SidebarRow Icon={VideoLibraryIcon} title="Library"/>
-            <SidebarRow Icon={HistoryIcon} title="History"/>
-            <SidebarRow Icon={OndemandVideoIcon} title="Your videos"/>
-            <SidebarRow Icon={WatchLaterIcon} title="Watch later"/>
-            <SidebarRow Icon={ThumbUpAltOutlinedIcon} title="Liked videos"/>
-            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more"/>
-            <hr/>
-        </div>
-    )
+function Sidebar({home, trending, subscriptions}) {
+    const [width, setWidth] = React.useState(window.innerWidth)
+    const breakpoint = 620
+    React.useEffect(() => {
+        
+        window.addEventListener("resize", () => setWidth(window.innerWidth));
+    
+      }, []);
+    if(width>breakpoint)
+    {
+        return (
+        
+            <div className="sidebar">
+                <SidebarRow selected={home} Icon={HomeIcon} title="Home"/>
+                <SidebarRow selected={trending} Icon={WhatshotIcon} title="Trending"/>
+                <SidebarRow selected={subscriptions} Icon={SubscriptionsIcon} title="Subscriptions"/>
+                <hr/>
+                <SidebarRow Icon={VideoLibraryIcon} title="Library"/>
+                <SidebarRow Icon={HistoryIcon} title="History"/>
+                <SidebarRow Icon={OndemandVideoIcon} title="Your videos"/>
+                <SidebarRow Icon={WatchLaterIcon} title="Watch later"/>
+                <SidebarRow Icon={ThumbUpAltOutlinedIcon} title="Liked videos"/>
+                <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more"/>
+                <hr/>
+            </div>
+        )
+    }
+    else{
+        return (<></>)
+    }
+    
 }
 
 export default Sidebar

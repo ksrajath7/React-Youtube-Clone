@@ -36,12 +36,12 @@
 }
 
 .header__inputButton{
-    border-left: 1px solid lightgray;
     width:50px !important;
     color: gray;
 }
 
 .header__input > input{
     flex:1;
+    padding: 10px;
     border: none;
 }
