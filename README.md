@@ -11,7 +11,7 @@ https://ksrajath7.github.io/React-Youtube-Clone
 
 ### 1. Fork and Clone this repository into your machine
 
-`git clone https://github.com/ksrajath7/Youtube-Clone-React-App.git`
+`git clone https://github.com/ksrajath7/React-Youtube-Clone.git`
 
 ### 2. Open the project folder in your Visual Studio Code or any other IDEs
 
