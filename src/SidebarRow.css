@@ -14,15 +14,8 @@
     font-weight: 500;
 }
 .sidebarRow:hover{
-    background-color: #f1f1f1;
     cursor: pointer;
 }
 .sidebarRow:hover > .sidebarRow__icon{
-    color: red;
-}
-.sidebarRow.selected{
-    background-color: #f1f1f1;
-}
-.sidebarRow.selected > .sidebarRow__icon{
     color: red;
 }

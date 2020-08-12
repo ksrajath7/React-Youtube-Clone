@@ -26,7 +26,6 @@ function SidebarCollapsable({home, trending, subscriptions}) {
         window.addEventListener("resize", () => setWidth(window.innerWidth));
     
       }, [])
-      console.log(collapse)
       if(width<breakpoint ){
         return (
                 <div className="sidebar1">
